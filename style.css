@@ -86,3 +86,8 @@ li {list-style: none;}
 .ftcontact-title{line-height: 2; font-family: 'Montserrat', sans-serif;
 	padding: 0 20px;}
 .ftcontact-item{line-height: inherit; font-family: 'Roboto', sans-serif;}
+.ftcontact-item > a:hover {color: #007aff ;}
+
+
+
+
