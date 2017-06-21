@@ -39,3 +39,33 @@ li {list-style: none;}
 .branding-1 {margin: 0 auto;}
 .branding-img {height: 350px; margin: 0 auto;}
 .branding-img:hover {background: #ff94b4; opacity: 0.8; }
+
+#box-2{margin: 15px auto 0 auto;
+	display: flex; flex-direction: row; flex-wrap: nowrap;}
+
+.branding-2 {margin: 0 0 0 auto;}
+.branding-img-2 {height: 350px;}
+.branding-img-2:hover {background: #5b561e; opacity: 0.7;}
+.branding-3 {margin: 0 auto 0 0;}
+.branding-img-3 {height: 350px;}
+.branding-img-3:hover {background: #b49a82; opacity: 0.8;}
+
+#footer{margin: 50px auto 0 auto;
+	display: flex; flex-direction: row; flex-wrap: nowrap;
+    align-items: center;
+	background: #f3f3f4; height: 300px }
+
+.footer-box{
+	display: -webkit-flex;  -webkit-align-items: center;
+	margin: 0 auto;}    
+
+.ftbrand{padding: 0 30px; border-right: 1.5px solid #6f6f6f;}
+
+.ftabout-title{line-height: 2; font-family: 'Montserrat', sans-serif;
+	padding: 0 20px;}
+.ftabout-item{line-height: inherit; font-family: 'Roboto', sans-serif;}
+
+.ftcontact-title{line-height: 2; font-family: 'Montserrat', sans-serif;
+	padding: 0 20px;}
+.ftcontact-item{line-height: inherit; font-family: 'Roboto', sans-serif;}
+.ftcontact-item > a:hover {color: #007aff ;}
