@@ -29,17 +29,36 @@ li {list-style: none;}
 .gnb-item > a{margin: 0 20px; text-decoration: none;}
 .gnb-item > a:hover{color: #5b5be5; background: #f2effc;}
 
-#box-1{margin: 30px auto 0 auto;
+#box-1 {margin: 30px auto 0 auto;
 	display: flex; flex-direction: row; flex-wrap: nowrap;}
 .banner {margin: 0 auto;}
 .banner-img {height: 350px; margin: 0 auto;}
-.banner-img:hover {background: #ff94b4; opacity: 0.8; }
+
+#box-2 {margin: 20px auto 0 auto;
+	display: flex; flex-direction: row; flex-wrap: nowrap;}
+.map {width: 60%; margin: 0 0 0 40px;}
+.social {width: 40%; margin: 0 auto 0 0;
+	display:flex; flex-direction: row; flex-wrap: nowrap;
+	display: -webkit-flex;  -webkit-align-items: center;
+    align-items: center;
+	line-height: 2; font-family: 'Roboto', sans-serif;}
+.social-ul > li {margin-bottom: 25px;}
+.social-ul > li > a:hover{color: #007aff ;}
+.email {display: -webkit-flex;  -webkit-align-items: center;
+    align-items: center;}
+.email > img {height: 30px; margin: 0 20px 0 0;}
+.instagram {display: -webkit-flex;  -webkit-align-items: center;
+    align-items: center;}
+.instagram > img {height: 30px; margin: 0 20px 0 0;}
+.facebook {display: -webkit-flex;  -webkit-align-items: center;
+    align-items: center;}
+.facebook > img {height: 30px; margin: 0 20px 0 0;}
 
 
 #footer{margin: 50px auto 0 auto;
 	display: flex; flex-direction: row; flex-wrap: nowrap;
     align-items: center;
-	background: #f3f3f4; height: 300px }
+	background: #f3f3f4; height: 350px }
 
 .footer-box{
 	display: -webkit-flex;  -webkit-align-items: center;
