@@ -49,8 +49,7 @@ li {list-style: none;}
     align-items: center;
 	background: #f3f3f4; height: 300px }
 
-.footer-box{
-	display: -webkit-flex;  -webkit-align-items: center;
+.footer-box{display: -webkit-flex;  -webkit-align-items: center;
 	margin: 0 auto;}    
 
 .ftbrand{padding: 0 30px; border-right: 1.5px solid #6f6f6f;}
