@@ -70,10 +70,11 @@ li {list-style: none;}
 
 #footer{margin: 50px auto 0 auto;
 	display: flex; flex-direction: row; flex-wrap: nowrap;
-    align-items: center;
+	display: -webkit-flex;  -webkit-align-items: center;
 	background: #f3f3f4; height: 300px }
 
 .footer-box{
+	display: flex; flex-direction: row; flex-wrap: nowrap;
 	display: -webkit-flex;  -webkit-align-items: center;
 	margin: 0 auto;}    
 
