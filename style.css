@@ -17,7 +17,7 @@ li {list-style: none;}
 .header{display:flex; flex-direction: row; flex-wrap: nowrap;
 	/* bottmom line */
 	border-bottom: 1.5px solid #f3f3f4; margin: 15px auto 0 auto;
-	padding: 20px 0; 
+	padding: 20px 0;
 	font-family: 'Montserrat', 'Apple SD Gothic Neo', sans-serif}
 
 .brand{ width: 40%; display: -webkit-flex;  -webkit-align-items: center;
@@ -26,7 +26,7 @@ li {list-style: none;}
 .gnb{ width: 50%; display: -webkit-flex;  -webkit-align-items: center;
     align-items: center;}
 
-.gnb-item{display:inline-block; list-style:none 
+.gnb-item{display:inline-block; list-style:none
 		}
 
 .gnb-item > a{margin: 0 20px; text-decoration: none;}
@@ -76,7 +76,7 @@ li {list-style: none;}
 .footer-box{
 	display: flex; flex-direction: row; flex-wrap: nowrap;
 	display: -webkit-flex;  -webkit-align-items: center;
-	margin: 0 auto;}    
+	margin: 0 auto;}
 
 .ftbrand{padding: 0 30px; border-right: 1.5px solid #6f6f6f;}
 
@@ -88,7 +88,3 @@ li {list-style: none;}
 	padding: 0 20px;}
 .ftcontact-item{line-height: inherit; font-family: 'Roboto', sans-serif;}
 .ftcontact-item > a:hover {color: #007aff ;}
-
-
-
-
