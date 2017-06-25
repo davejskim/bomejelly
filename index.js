@@ -1,0 +1,15 @@
+$(document).ready(function(){
+  $("#box-2").mouseover(function(){
+    $(".box-2-info").show();
+  });
+});
+$(document).ready(function(){
+  $(".graphic").mouseover(function(){
+    $(".graphic-info").show();
+  });
+});
+$(document).ready(function(){
+  $(".artwork").mouseover(function(){
+    $(".artwork-info").show();
+  });
+});
