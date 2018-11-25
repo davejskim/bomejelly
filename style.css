@@ -2,99 +2,288 @@
 @import url('spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css');
 @import url('https://fonts.googleapis.com/css?family=Lato|Roboto');
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
 
+html {
+    color: #181818;
+}
 
-*{box-sizing: border-box; margin: 0;}
-html{font-size: 1.2 em;	line-height: 1.5; color: #181818;}
+body {
+    -webkit-font-smoothing: antialiased;
+}
 
-a {text-decoration: none; color: inherit;}
-ul, ol {list-style-type: none; padding: 0;}
-li {list-style: none;}
+a {
+    text-decoration: none;
+    color: inherit;
+}
 
+ul,
+ol {
+    list-style-type: none;
+    padding: 0;
+}
 
+li {
+    list-style: none;
+}
 
-#wrap{min-width: 980px; width:1200px; margin: 0 auto;}
-.header{display:flex; flex-direction: row; flex-wrap: nowrap;
-	/* bottmom line */
-	border-bottom: 1.5px solid #f3f3f4; margin: 15px auto 0 auto;
-	padding: 20px 0;
-	font-family: 'Montserrat', 'Apple SD Gothic Neo', sans-serif}
+.header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    /* bottmom line */
+    border-bottom: 1.5px solid #f3f3f4;
+    margin: 15px auto 0 auto;
+    padding: 20px 0;
+    font-family: 'Montserrat', 'Apple SD Gothic Neo', sans-serif
+}
 
-.brand{ width: 40%; display: -webkit-flex;  -webkit-align-items: center;
-    align-items: center; padding: 0 0 0 150px }
+.brand {
+    width: 40%;
+    display: -webkit-flex;
+    -webkit-align-items: center;
+    align-items: center;
+    padding: 0 0 0 150px
+}
 
-.gnb{ width: 50%; display: -webkit-flex;  -webkit-align-items: center;
-    align-items: center;}
+.gnb {
+    width: 50%;
+    display: -webkit-flex;
+    -webkit-align-items: center;
+    align-items: center;
+}
 
-.gnb-item{display:inline-block; list-style:none
-		}
+.gnb-item {
+    display: inline-block;
+    list-style: none
+}
 
-.gnb-item > a{margin: 0 20px; text-decoration: none;}
+.gnb-item>a {
+    margin: 0 20px;
+    text-decoration: none;
+}
 
-.gnb-item > a:hover{color: #5b5be5; background: #f2effc;}
+.gnb-item>a:hover {
+    color: #5b5be5;
+    background: #f2effc;
+}
 
-#box-1{font-family: 'Roboto'; margin: 25px auto 0 auto;
-	display: flex; flex-direction: row; flex-wrap: nowrap;}
+#box-1 {
+    font-family: 'Roboto';
+    margin: 25px auto 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
 
-.wedo {width: 30%; padding: 0 20px; margin: 0 10px 0 auto;}
-.wecon {width: 30%; padding: 0 20px; margin: 0 auto 0 10px;}
+.wedo {
+    width: 30%;
+    padding: 0 20px;
+    margin: 0 10px 0 auto;
+}
 
+.wecon {
+    width: 30%;
+    padding: 0 20px;
+    margin: 0 auto 0 10px;
+}
 
-.wedo-box {line-height: 2; font-family: 'Montserrat'; border-top: 1.5px solid #f3f3f4;}
-.wedo-item {line-height: inherit; font-family: 'Roboto'; font-weight: normal;
-	color: #525252;}
-.wecon-box  {line-height: 2; font-family: 'Montserrat'; border-top: 1.5px solid #f3f3f4;}
-.wecon-item {line-height: inherit; font-family: 'Roboto'; font-weight: normal;
-	color: #525252;}
+.wedo-box {
+    line-height: 2;
+    font-family: 'Montserrat';
+}
 
-.wedo-item:hover {color: #ff8895; }
-.wecon-item:hover {color: #ff8895; }
+.wedo-item {
+    line-height: inherit;
+    font-family: 'Roboto';
+    font-weight: normal;
+    color: #525252;
+}
 
-#box-2{margin: 30px auto 0 auto;
-	display: flex; flex-direction: row; flex-wrap: nowrap;}
+.wecon-box {
+    line-height: 2;
+    font-family: 'Montserrat';
+}
 
-.branding {margin: 0 auto; position: relative; z-index: 1;}
-.box-desc {position: absolute; z-index: 10; right: 0; margin: 20px 20px 0 0;
-	font-family: Montserrat; color: #fff; font-size: 1.5rem;}
-.box-desc:hover {-webkit-transition: opacity: 0.9s; -moz-transition: 0.9s; transition: 0.9s;}
+.wecon-item {
+    line-height: inherit;
+    font-family: 'Roboto';
+    font-weight: normal;
+    color: #525252;
+}
 
-.branding {margin: 0 auto;
-	display: flex; flex-direction: row; flex-wrap: nowrap;}
-.branding-img {height: 350px; margin: 0 auto;}
-.branding-img:hover {background: #ff94b4; opacity: 0.8; }
+.wedo-item:hover {
+    color: #ff8895;
+}
 
+.wecon-item:hover {
+    color: #ff8895;
+}
 
-#box-3{margin: 15px auto 0 auto;
-	display: flex; flex-direction: row; flex-wrap: nowrap;}
+#box-2 {
+    margin: 30px auto 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
 
-.graphic {margin: 0 0 0 auto; position: relative;}
-.graphic-img{height: 350px;}
-.graphic-img:hover {background: #5b561e; opacity: 0.7;}
+.branding {
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+}
 
+.box-desc {
+    position: absolute;
+    z-index: 10;
+    right: 0;
+    margin: 20px 20px 0 0;
+    font-family: Montserrat;
+    color: #fff;
+    font-size: 1.5rem;
+}
 
-.artwork {margin: 0 auto 0 0;
-	display: flex; flex-direction: row; flex-wrap: nowrap; position: relative;}
-.artwork-img {height: 350px; }
-.artwork-img:hover {background: #b49a82; opacity: 0.8;}
+.box-desc:hover {
+    -webkit-transition: opacity: 0.9s;
+    -moz-transition: 0.9s;
+    transition: 0.9s;
+}
 
+.branding {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
 
-#footer{margin: 50px auto 0 auto;
-	display: flex; flex-direction: row; flex-wrap: nowrap;
-	display: -webkit-flex;  -webkit-align-items: center;
-	background: #f3f3f4; height: 300px }
+.branding-img {
+    height: 350px;
+    margin: 0 auto;
+}
 
-.footer-box{
-	display: flex; flex-direction: row; flex-wrap: nowrap;
-	display: -webkit-flex;  -webkit-align-items: center;
-	margin: 0 auto;}
+.branding-img:hover {
+    background: #ff94b4;
+    opacity: 0.8;
+}
 
-.ftbrand{padding: 0 30px; border-right: 1.5px solid #6f6f6f;}
+#box-3 {
+    margin: 15px auto 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
 
-.ftabout-title{line-height: 2; font-family: 'Montserrat', sans-serif;
-	padding: 0 20px;}
-.ftabout-item{line-height: inherit; font-family: 'Roboto', sans-serif;}
+.graphic {
+    margin: 0 0 0 auto;
+    position: relative;
+}
 
-.ftcontact-title{line-height: 2; font-family: 'Montserrat', sans-serif;
-	padding: 0 20px;}
-.ftcontact-item{line-height: inherit; font-family: 'Roboto', sans-serif;}
-.ftcontact-item > a:hover {color: #007aff ;}
+.graphic-img {
+    height: 350px;
+}
+
+.graphic-img:hover {
+    background: #5b561e;
+    opacity: 0.7;
+}
+
+.artwork {
+    margin: 0 auto 0 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    position: relative;
+}
+
+.artwork-img {
+    height: 350px;
+}
+
+.artwork-img:hover {
+    background: #b49a82;
+    opacity: 0.8;
+}
+
+#footer {
+    margin: 50px 0 0 0;
+    background: #f3f3f4;
+    width: 100vw;
+    position: relative;
+    min-height: 300px;
+}
+
+.footer-box {
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    display: -webkit-flex;
+    align-items: center;
+    -webkit-align-items: center;
+    justify-content: center;
+}
+	/* @media screen and (min-width: 1px) and (max-width: 650px){
+		.footer-box {display: flex; flex-direction: column}
+	} */
+
+.ftbrand {
+    padding: 0 30px;
+    border-right: 1.5px solid #6f6f6f;
+}
+	@media screen and (min-width: 1px) and (max-width: 650px) {
+    .ftbrand {
+        display: flex;
+        width: 100vw
+    }
+}
+
+.ft-container {
+    display: inherit;
+    padding: 50px;
+    overflow: auto;
+}
+
+.ftabout-title {
+    line-height: 2;
+    font-family: 'Montserrat', sans-serif;
+    padding: 0 20px;
+}
+
+.ftabout-item {
+    line-height: inherit;
+    flex-wrap: wrap;
+    font-family: 'Roboto', sans-serif;
+}
+
+@media only screen (min-width: 1px) and (max-width: 650px) {
+    .ftabout-item {
+        display: flex;
+        width: 80%
+    }
+}
+
+.ftcontact-title {
+    line-height: 2;
+    font-family: 'Montserrat', sans-serif;
+    padding: 0 20px;
+}
+
+.ftcontact-item {
+    line-height: inherit;
+    flex-wrap: wrap;
+    font-family: 'Roboto', sans-serif;
+}
+
+@media only screen (min-width: 1px) and (max-width: 650px) {
+    .ftcontact-item {
+        display: flex;
+        width: 80%
+    }
+}
+
+.ftcontact-item>a:hover {
+    color: #007aff;
+}
