@@ -30,10 +30,15 @@ li {
     list-style: none;
 }
 
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
 .header {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
+    display: block;
+    position: relative;
     /* bottmom line */
     border-bottom: 1.5px solid #f3f3f4;
     margin: 15px auto 0 auto;
@@ -41,24 +46,34 @@ li {
     font-family: 'Montserrat', 'Apple SD Gothic Neo', sans-serif
 }
 
-.brand {
-    width: 40%;
-    display: -webkit-flex;
-    -webkit-align-items: center;
-    align-items: center;
-    padding: 0 0 0 150px
+.header-container {
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    width: auto;
 }
+
+.brand {
+    width: 50%;
+    margin: 0 auto;
+    display: inherit;
+    float: left;
+    /* padding: 0 0 0 150px */
+}
+
+.brand > a > img {display: block; float: letf; margin: 0 auto; margin: 0 auto; left: 50%}
 
 .gnb {
     width: 50%;
-    display: -webkit-flex;
-    -webkit-align-items: center;
-    align-items: center;
+    margin: 0 auto;
+    display: inherit;
+    float: left;
 }
 
 .gnb-item {
     display: inline-block;
-    list-style: none
+    list-style: none;
+    width: auto;
 }
 
 .gnb-item>a {
@@ -225,7 +240,8 @@ li {
     -webkit-align-items: center;
     justify-content: center;
 }
-	/* @media screen and (min-width: 1px) and (max-width: 650px){
+
+/* @media screen and (min-width: 1px) and (max-width: 650px){
 		.footer-box {display: flex; flex-direction: column}
 	} */
 
@@ -233,7 +249,8 @@ li {
     padding: 0 30px;
     border-right: 1.5px solid #6f6f6f;
 }
-	@media screen and (min-width: 1px) and (max-width: 650px) {
+
+@media screen and (min-width: 1px) and (max-width: 650px) {
     .ftbrand {
         display: flex;
         width: 100vw
